@@ -1,12 +1,12 @@
 {
   "version": 1,
-  "locale": "en_US.UTF-8",
+  "locale": "C.UTF-8",
   "metadata": {
     "appmode": "python-streamlit",
     "entrypoint": "app.py"
   },
   "python": {
-    "version": "3.11.10",
+    "version": "3.12.15",
     "package_manager": {
       "name": "pip",
       "version": "26.3",
@@ -16,33 +16,33 @@
   },
   "environment": {
     "python": {
-      "requires": "~=3.11.0"
+      "requires": "~=3.12.0"
     }
   },
   "files": {
     "requirements.txt": {
-      "checksum": "909f52087f38d1316be8fb5516140bfb"
+      "checksum": "b11da576796eaf2019a0068230070888"
     },
     ".gitignore": {
       "checksum": "62dc092068ff44be853c1134372af608"
     },
     ".python-version": {
-      "checksum": "c0479ff484dacd51dc5ba0461b16b9bf"
+      "checksum": "efc9146c06acbfd648dd6e3c57d289b5"
     },
     "LICENSE": {
       "checksum": "65d3616852dbf7b1a6d4b53b00626032"
     },
     "README.md": {
-      "checksum": "26d224ceb1850e5c0e0674280b6c557e"
+      "checksum": "557194adf35458a2912fc4d712ee6477"
     },
     "app.py": {
       "checksum": "a9d70fd15cfa56c28c39d64992e74705"
     },
     "pyproject.toml": {
-      "checksum": "5061b5020d792063519ed5c725cfb1f2"
+      "checksum": "7e57ed605baca7c9840847adf66e9193"
     },
     "uv.lock": {
-      "checksum": "90ac66d5f34ffccee5377720650b8acb"
+      "checksum": "b51ee4b53d7d089dbd9ae0d28ca38cad"
     },
     "write_manifest.py": {
       "checksum": "1805666337f33bfc4585532fa146ae8c"

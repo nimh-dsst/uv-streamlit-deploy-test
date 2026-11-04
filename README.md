@@ -54,7 +54,7 @@ See the [release notes](https://docs.posit.co/connect/news/#2024120) and
 ## Run locally using uv
 
 ```bash
-uv sync --python 3.11
+uv sync
 uv run streamlit run app.py
 ```
 
@@ -68,10 +68,9 @@ Streamlit is restricted to versions below `1.57` because the current Connect
 [release notes](https://docs.posit.co/connect/news/) document a compatibility
 restriction starting at that version.
 
-The manifest is generated with Python **3.11**. If Connect reports that no
-compatible Python installation is available, use a version offered by your
-server and regenerate the manifest with that interpreter. The project allows
-Python 3.10 through 3.13; package availability may impose further limits.
+The project uses Python **3.12.15**, matching the version available on the
+Connect server. `.python-version` pins that interpreter for local development
+and manifest generation, and `pyproject.toml` requires Python 3.12.
 
 ## Update the deployment files
 
