@@ -1,0 +1,13 @@
+[project]
+name = "uv-streamlit-deploy-test"
+version = "0.1.0"
+description = "A hello-world app for checking uv availability on Posit Connect."
+requires-python = ">=3.10,<3.14"
+dependencies = [
+    "streamlit>=1.30,<1.57",
+]
+
+[dependency-groups]
+dev = [
+    "rsconnect-python>=1.25,<2",
+]

@@ -218,3 +218,6 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Posit publishing credentials and local deployment state
+.rsconnect-python/
